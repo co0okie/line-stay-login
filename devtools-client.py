@@ -48,7 +48,7 @@ def main():
 
     try:
         result = request('initialize', dict(protocolVersion='2025-03-26',
-            capabilities={}, clientInfo=dict(name='line-diagnostics', version='1.0')))
+            capabilities={}, clientInfo=dict(name='line-stay-login', version='1.0')))
         if 'error' in result:
             raise RuntimeError(result['error'])
         send(dict(jsonrpc='2.0', method='notifications/initialized'))

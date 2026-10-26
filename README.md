@@ -1,4 +1,6 @@
-# LINE 登入保留
+# LINE Stay Login
+
+讓 Chrome 版 LINE 保持登入的本機輔助擴充功能。中文名稱：LINE 登入保留。
 
 避免 Chrome 版 LINE 在關閉最後一個視窗後，因登入 Cookie 被丟棄而要求重新掃碼。
 
@@ -13,8 +15,8 @@ Chrome 的單次 Cookie 保存期限上限為 400 天；本工具在使用期間
 3. 點「載入未封裝項目」，選擇本 repo 的 **`companion-extension`** 資料夾。
 4. 確認出現「LINE 登入保留」。點擴充功能按鈕可查看本機保存日期。
 
-目前機器的資料夾為 `/home/co0okie/repo/line-diagnostics/companion-extension`。
-載入後請保留資料夾位置，Chrome 會從這裡讀取程式。
+例如將 repo 複製到 `~/repo/line-stay-login`，安裝時選擇其中的
+`companion-extension` 資料夾。載入後請保留資料夾位置，Chrome 會從這裡讀取程式。
 
 ## 到期、更新和登出
 

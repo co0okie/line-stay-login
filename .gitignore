@@ -1,10 +1,4 @@
-# Local diagnostics: never publish session observations.
+# Existing local diagnostic records and machine-specific notes.
 trace-*.jsonl
-*.log
 findings.txt
 README.txt
-__pycache__/
-node_modules/
-*.crx
-*.pem
-.DS_Store
