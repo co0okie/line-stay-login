@@ -1,0 +1,9 @@
+{
+  "name": "line-login-retention",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Chrome companion for retaining the LINE login cookie",
+  "scripts": {"test": "node retention.test.mjs"},
+  "engines": {"node": ">=24"}
+}

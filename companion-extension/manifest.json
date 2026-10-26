@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LINE 登入保留",
+  "version": "1.0.0",
+  "description": "自動延長這台電腦上 LINE 登入 Cookie 的保存期限。伺服器端登入失效時仍需重新登入。",
+  "minimum_chrome_version": "119",
+  "permissions": ["cookies", "alarms"],
+  "host_permissions": ["https://line-chrome-gw.line-apps.com/*"],
+  "background": {"service_worker": "worker.js", "type": "module"},
+  "action": {"default_title": "LINE 登入保留", "default_popup": "popup.html"}
+}

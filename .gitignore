@@ -1,0 +1,10 @@
+# Local diagnostics: never publish session observations.
+trace-*.jsonl
+*.log
+findings.txt
+README.txt
+__pycache__/
+node_modules/
+*.crx
+*.pem
+.DS_Store
